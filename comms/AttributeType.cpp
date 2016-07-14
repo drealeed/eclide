@@ -208,10 +208,10 @@ public:
                 m_description = _T("CMP - HIPIE Composition");
             else if (boost::algorithm::equals(m_repositoryCode, ATTRIBUTE_TYPE_WORKSPACE))
                 m_description = _T("ECL_WS - ECL Workspace Persistance File");
-			else if (boost::algorithm::equals(m_repositoryCode, ATTRIBUTE_TYPE_LUCIFAMILY))
-				m_description = _T("LUCI - Luci Family File");
-			else if (boost::algorithm::equals(m_repositoryCode, ATTRIBUTE_TYPE_DEFT))
-				m_description = _T("DEFT - Training file");
+	    else if (boost::algorithm::equals(m_repositoryCode, ATTRIBUTE_TYPE_LUCIFAMILY))
+		m_description = _T("LUCI - Luci Family File");
+	    else if (boost::algorithm::equals(m_repositoryCode, ATTRIBUTE_TYPE_DEFT))
+		m_description = _T("DEFT - Training file");
 		
             else
                 m_description = _T("???");
